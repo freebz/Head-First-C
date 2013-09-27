@@ -1,0 +1,9 @@
+data=[
+{latitude: 30.685163, longitude: -68.137207, info: 'Type=Yeti'},
+{latitude: 28.304380, longitude: -74.575195, info: 'Type=UFO'},
+{latitude: 29.132971, longitude: -71.136475, info: 'Type=Ship'},
+{latitude: 27.868217, longitude: -68.005371, info: 'Type=Goatsucker'},
+{latitude: 30.496017, longitude: -73.333740, info: 'Type=Disappearance'},
+{latitude: 26.224447, longitude: -71.477051, info: 'Type=UFO'},
+{latitude: 29.401320, longitude: -66.027832, info: 'Type=Ship'}
+]
