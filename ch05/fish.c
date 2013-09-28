@@ -1,8 +1,14 @@
+struct preferences {
+  const char *food;
+  float exercise_hours;
+};
+
 struct fish {
   const char *name;
   const char *species;
   int teeth;
   int age;
+  struct preferences care;
 };
 
 /* Print out the catalog entry */
@@ -21,8 +27,12 @@ void label(struct fish f)
 
 int main()
 {
-  struct fish snappy = {"Snappy", "Piranha", 69, 4};
+  struct fish snappy = {"Snappy", "Piranha", 69, 4, {"Meat", 7.5}};
   catalog(snappy);
   label(snappy);
+
+  printf("Snappy likes to eat %s", snappy.care.food);
+  printf("Snappy likes to exercise for %f hours", snappy.care.exercise_hours);
+
   return 0;
 }
